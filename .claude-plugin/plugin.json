@@ -1,0 +1,13 @@
+{
+  "name": "no-slop",
+  "displayName": "No Slop",
+  "version": "1.0.0",
+  "description": "Strips AI tells out of prose, with a stricter rule set for anything you send to someone else.",
+  "author": {
+    "name": "Anurag K Gupta",
+    "email": "anurag27397@gmail.com"
+  },
+  "homepage": "https://github.com/anurag27397/no-slop",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "style", "prose", "email"]
+}
