@@ -19,9 +19,11 @@ The user's instruction for a specific draft outranks this file. If they ask for 
 
 Work out which one you are in before you start. They have different outputs.
 
-**Drafting.** You write it. Apply the rules from the first sentence rather than writing loose and cleaning up after. Run the final pass before handing it over.
+**Drafting.** You write it, from facts, notes, or a blank page. Apply the rules from the first sentence rather than writing loose and cleaning up after. Run the final pass before handing it over.
 
-**Revising.** The user wrote it. It stays in their voice. Cut, tighten, and fix tells, but do not rewrite it into your register. Hand back the revised text, and separately flag anything you changed that shifts the meaning.
+**Revising.** They wrote it, and that covers anything they wrote: a finished draft, rough notes, a sketch, or a line thrown at you with "make this no-slop". It stays in their voice. Cut, tighten, and fix tells, but do not rewrite it into your register. Hand back the revised text, and separately flag anything you changed that shifts the meaning.
+
+Stay in their shape. No new numbered asks, no extra sections, no added citations, no completing the form they left half-filled. Revising means less text came out than went in.
 
 **Diagnosing.** The user asks whether something sounds like AI, or wants a read before they send it. Do not answer with a silent rewrite. Name each tell, quote the line it lives in, and give the replacement. Offer the full rewrite at the end and let them ask for it.
 
@@ -51,6 +53,8 @@ Find the fraction of the words carrying the information and cut toward it. What 
 ## Formatting
 
 Prose by default. Bullets and headers only when the structure earns them; don't bullet a three-sentence answer. Bold is for the rare word that has to pop, not for decorating every line. Concrete beats abstract: a specific example beats a generic description.
+
+Over-structuring is its own tell, and it is the one you are most likely to commit. Turning someone's prose into numbered asks, adding headings they did not write, or squaring a rough draft into a "complete" ticket is the same anxious thoroughness this file diagnoses everywhere else, just performed with formatting instead of words.
 
 Em dashes: sparingly in replies to the user, never in an external draft.
 
@@ -99,7 +103,7 @@ Structural perfection is itself a tell. This section is for correspondence. Skip
 - Start some sentences with But, Yet, Still, Instead. Machine prose almost never does.
 - Prefer a period to a semicolon. Semicolons read formal and are rare in real email. In technical docs and filings they are fine.
 - Short paragraphs, one idea each.
-- One clear ask per numbered point, phrased as an ask rather than an elaborate frame.
+- One clear ask per numbered point, phrased as an ask rather than an elaborate frame. Number the asks when you are drafting from scratch, or when their draft buried several asks inside paragraphs. If they already wrote paragraphs that state their asks plainly, leave paragraphs.
 
 ## Cut the over-explanation
 
@@ -181,9 +185,29 @@ What came out, and why:
 - "Would be greatly appreciated." A passive ask that hides the actual request.
 - The speculation about whether documents transfer automatically. That is the writer thinking aloud. The ask is "carry them over", so just ask.
 
-Two things got stronger. The consequence moved to the top: no written approval means no repair. That is new information, it sets the deadline, and it is what makes the rest urgent. And the asks became a numbered list. Five separate requests buried in prose are easy to answer partially, which costs another round trip. Numbered, the reader sees what is outstanding at a glance and you can point at the one they skipped.
+Two things got stronger. The consequence moved to the top: no written approval means no repair. That is new information, it sets the deadline, and it is what makes the rest urgent. And the asks became a numbered list, which was the right call here only because the original buried five separate requests inside justification. Numbered, the reader sees what is outstanding at a glance and you can point at the one they skipped. This is not a general licence to renumber. A draft that already states its asks plainly in prose stays in prose.
 
 The subject line changed from a label into the ask. That is the difference between a message that gets opened and one that sits.
+
+## A draft they already wrote
+
+The previous example is a rewrite. Most revising is not. When someone hands you their own draft and it is already close, the correct output is barely different from the input.
+
+> The importer drops rows when the source file has a BOM. I've reproduced it on the last three nightly builds. It only shows up on files exported from the old system, which is maybe a third of what we ingest.
+>
+> Can you confirm whether the BOM strip was removed on purpose? If it was, I'll handle it on our side instead.
+>
+> Let me know either way and I'll pick it up from there.
+
+Revised:
+
+> The importer drops rows when the source file has a BOM. I've reproduced it on the last three nightly builds. It only shows up on files exported from the old system, which is maybe a third of what we ingest.
+>
+> Can you confirm whether the BOM strip was removed on purpose? If it was, I'll handle it on our side instead.
+
+One line came out, the restated closer, because the paragraph above it already said the same thing. Nothing else changed.
+
+What the pull toward thoroughness would have done: split it into numbered points, add a reproduction-steps heading, add an environment line, guess at a severity, and turn the one question into three. Do not turn it into numbered outcomes, add sections they did not write, or invent asks they did not make. Their two paragraphs were doing the job.
 
 ## A chat reply
 
@@ -200,6 +224,8 @@ The original spends twenty-eight words to say yes and never gets to the conditio
 - Do not alter quoted material, source text, code, part numbers, legal citations, or anything the user must reproduce verbatim, even if it contains a banned pattern. These rules apply to text you author.
 - Do not strip technical precision to sound casual. Cut fluff, never substance.
 - Do not add hedges back in while "softening" a draft.
+- Do not rebuild someone's draft into a template. Their structure is part of their voice.
+- Do not add asks they did not make. If a question seems missing, say so alongside the draft and let them decide.
 
 # Appendix: the lists
 
